@@ -55,16 +55,65 @@
         </div>
    </section>
    
-    <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
+   <section class="py-20 lg:py-32 flex flex-col gap-24" id="About me">
+
         <div class="flex flex-col gap-2 text-center">
+
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Thanks for taking the time to get to know me.
             </h6>
+
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                 Here's my <span class="poppins text-cyan-400">journey</span> so far.
             </h3>
+
         </div>
+
+
+        <div class="grid grid-cols-2 lg:grid-cols-2 gap-12 lg:gap-10">
+
+            <div class="relative shadow-2xl grid grid-rows-[80vh, auto] place-items-center">
+                <img
+                    src={"images/UW.jpg"}
+                    alt="University of Waterloo"
+                    class="object-cover z-[2] max-h-[70vh] rounded-md w-full"
+                />
+                <div class="grid grid-cols-5 gap-0">
+                    <img src={"images/cibc.png"} alt="cibc" class="object-cover z-[2] h-full" />
+                    <img src={"images/city-mississauga.png"} alt="mississauga" class="object-cover z-[2] h-full bg-white" />
+                    <img src={"images/morneau.jpg"} alt="morneau" class="object-cover z-[2] h-full bg-white" />
+                    <img src={"images/sun-life.jpg"} alt="sunlife" class="object-cover z-[2] h-full" />
+                    <img src={"images/manulife.png"} alt="manulife" class="object-cover z-[2] h-full" />
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class=" lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
+
+                <h2 class="text-center font-semibold text-4xl sm:text-5xl md:text-6xl">
+                    Hi! I'm <span class="poppins text-cyan-400">Hamza Rashid</span> 
+                    <br />Aspiring
+                    <span class="poppins text-cyan-400">Software Developer</span>
+                </h2>
+
+                <p class="text-center text-base sm:text-lg md:text-xl">
+                    My <span class="text-cyan-400">favorite tech</span> includes JavaScript
+                    (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
+                    or Firebase/Firestore!
+                </p>
+
+            </div>
+
+
+        </div>
+
+
         
+            
     
     </section>
 
