@@ -1,3 +1,3 @@
 # Portfolio Website
 
-Portfoliot website built using SvelteKit & TailwindCSS.
+Portfoliot website built using HTML, JavaScript SvelteKit & TailwindCSS.
