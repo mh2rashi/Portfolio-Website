@@ -95,6 +95,8 @@
         }
     ];
 
+ 
+
 
 </script>
 
@@ -112,10 +114,35 @@
                 (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
                 or Firebase/Firestore!
             </p>
-            <button class=" bg-white mx-auto hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950">
-                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
-            </button>
+
+            <div class="flex justify-center gap-4 grid grid-cols-2">
+
+                <button class="bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950">
+                    <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                    <h4 class="relative z-9">Download CV</h4>
+                </button>
+
+                <button class="bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950">
+                    <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                    <h4 class="relative z-9">Contact Info</h4>
+                </button>
+
+                <img
+                    src={"images/icons/linkedin.png"}
+                    alt="My LinkedIn profile"
+                    class="cursor-pointer h-8  hover:opacity-75 w-10 h-10 ml-auto transition duration-200"
+                    onclick="location.href='https://linkedin.com/'"
+                />
+              <img
+                src={"images/icons/github.png"}
+                alt="My Github profile"
+                class="cursor-pointer h-8  hover:opacity-75 w-10 h-10 transition duration-200"
+                onclick="location.href='https://github.com/'"
+              />
+
+            </div>
+
+ 
         </div>
 
         <div class="relative shadow-2xl grid place-items-center">
@@ -128,7 +155,7 @@
    </section>
 
 
-   <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+   <section id="about" class="py-2 pt-10 lg:pt-16 lg:py-2 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
         
         <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
             <h6 class="text-large sm:text-xl md:text-2xl">
@@ -139,8 +166,9 @@
             </h3>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 gap-12">
+       
 
+        <!--
             <div class="relative shadow-2xl grid grid-rows-[80vh, auto] place-items-center gap-0">
                 
                 <img src={"images/UW.jpg"} alt="University of Waterloo" class="object-cover z-[2] max-h-[70vh] rounded-md w-full"/>
@@ -156,6 +184,8 @@
                 </div>
 
             </div>
+
+            -->
 
 
             <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
@@ -181,17 +211,7 @@
 
 
 
-            <div class="relative shadow-2xl grid grid-rows-[80vh, auto] place-items-center gap-0">
-                <img
-                    src={"images/munich-re.jpg"}
-                    alt="Munich Re"
-                    class="object-cover z-[2] max-h-[60vh] rounded-md w-full"
-                />
-                <div class="grid grid-cols-5 gap-0">
-                    <img src={"images/cibc.png"} alt="cibc" class="object-cover z-[2] h-full rounded-md" />
-                    <img src={"images/city-mississauga.png"} alt="mississauga" class="object-contain z-[2] h-full rounded-md" />
-                </div>
-            </div>
+           
 
 
             <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
@@ -213,14 +233,11 @@
                    </div>
             </div>
 
-        </div>
-
-        
-
+       
     </section>
 
 
-<section id="Experience" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+<section id="Skills" class="py-2 pt-10 lg:pt-16 lg:py-2 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
 
 
     <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
@@ -243,6 +260,89 @@
             </div>
         {/each}
     </div>
+
+
+</section>
+
+
+<section id="projects" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+
+
+    <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
+          
+            <h6 class="text-large sm:text-xl md:text-2xl">
+                Curious to see my work?
+            </h6>
+
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                Here's some of my finest <span class="poppins text-cyan-400">projects</span>
+            </h3>
+
+        </div>
+
+
+        <div class="grid grid-cols-2 flex justify-center flex-col gap-10 ">
+
+            <div class="p-6 flex-1 rounded-xl border border-solid border-gray-300 bg-black text-center hover:scale-105 duration-500">
+            
+                <div class="flex flex-col gap-10 justify-around">
+                
+                    <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90 ">
+                        <h3 class="text-xl sm:text-xl md:text-2xl"> Multi-Threaded Limit OrderBook & Trading Engine </h3>
+                        <p>A fast, and efficient trade matching engine built in C++ utilizing Chrono, BOOST, and STL libraries.</p>
+                        <div class="flex justify-center gap-4 grid grid-cols-2">
+
+                        <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                          
+                          <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
+                          <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                          <h4 class="relative z-9">GitHub</h4>
+                        </button>
+
+                        <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                          <i class="fa-solid fa-play cursor-pointer h-8 w-8 mt-2.5"></i>
+                          <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                          <h4 class="relative z-9 align-middle">Demo Video</h4>
+                        </button>
+
+                    </div>
+
+                </div>
+            
+            </div>
+
+            
+
+            <div class="p-6 flex-1 rounded-xl border border-solid border-gray-300 bg-black text-center hover:scale-105 duration-500">
+            
+                <div class="flex flex-col gap-10 justify-around">
+                
+                    <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90">
+                    <h3 class="text-xl sm:text-xl md:text-2xl"> PacMan with User Generated Maps </h3>
+                    <p>PacMan game with map editor functionality that allows users to modify and create their own custom maps.</p>
+
+                    <div class="flex justify-center gap-4 grid grid-cols-2">
+
+                        <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                          
+                          <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
+                          <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                          <h4 class="relative z-9">GitHub</h4>
+                        </button>
+
+                        <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                          <i class="fa-solid fa-play cursor-pointer h-8 w-8 mt-2.5"></i>
+                          <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                          <h4 class="relative z-9 align-middle">Demo Video</h4>
+                        </button>
+
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </div>
 
 
 </section>
