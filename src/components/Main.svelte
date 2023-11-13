@@ -109,7 +109,7 @@
 
         {
         
-            id: 10,
+            id: 9,
             src: "images/technologies/node.png",
             title: 'Node.js',
             style: 'shadow-green-500',
@@ -120,7 +120,7 @@
 
         {
         
-            id: 9,
+            id: 10,
             src: "images/technologies/express.png",
             title: 'Express.js',
             style: 'shadow-gray-500',
@@ -131,7 +131,7 @@
 
         {
         
-            id: 9,
+            id: 11,
             src: "images/technologies/mongo.png",
             title: 'MongoDB',
             style: 'shadow-green-500',
@@ -141,7 +141,7 @@
 
         {
         
-            id: 9,
+            id: 12,
             src: "images/technologies/js.png",
             title: 'JavaScript',
             style: 'shadow-yellow-500 w-105',
@@ -158,7 +158,7 @@
 
 
 <main class="flex flex-col flex-1 p-4">
-    <section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
+    <section id="home" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
 
         <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
             <h2 class="text-center font-semibold text-4xl sm:text-5xl md:text-6xl">
@@ -216,7 +216,7 @@
    </section>
 
 
-   <section id="about" class="py-2 pt-10 lg:pt-16 lg:py-2 flex flex-col gap-16 sm:gap-20 md:gap-24 relative ">
+   <section id="about" class="pt-10 lg:pt-16 lg:py-2 flex flex-col gap-16 sm:gap-20 md:gap-24 relative ">
         
         <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
             <h6 class="text-large sm:text-xl md:text-2xl">
@@ -273,7 +273,7 @@
     </section>
 
 
-<section id="Skills" class="py-2 pt-10 lg:pt-16 lg:py-2 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+<section id="skills" class="py-2 pt-10 lg:pt-16 lg:py-2 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
 
 
     <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
@@ -301,7 +301,7 @@
 </section>
 
 
-<section id="projects" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+<section id="portfolio" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
 
 
     <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">

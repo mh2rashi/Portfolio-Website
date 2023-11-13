@@ -1,4 +1,4 @@
-<footer
+<footer id="contact"
     class="py-20 sm:py-32 border-t border-solid border-cyan-500 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
    <div name="contact" class="flex flex-col w-full mx-auto max-w-[600px] justify-center">
