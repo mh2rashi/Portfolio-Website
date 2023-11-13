@@ -182,9 +182,9 @@
                 </button>
 
                 <button class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
-                    <i class="fa-solid fa-address-book cursor-pointer text-3xl mt-[-0.25rem]"></i>
+                    <i class="fa-solid fa-envelope cursor-pointer text-3xl mt-[-0.25rem]"></i>
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                    <h4 class="relative z-9">Contact Info</h4>
+                    <h4 class="relative z-9">Email Info</h4>
                 </button>
 
                 <button class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
@@ -227,52 +227,27 @@
             </h3>
         </div>
 
-       
 
-        <!--
-            <div class="relative shadow-2xl grid grid-rows-[80vh, auto] place-items-center gap-0">
-                
-                <img src={"images/UW.jpg"} alt="University of Waterloo" class="object-cover z-[2] max-h-[70vh] rounded-md w-full"/>
-                
-                <div class="grid grid-cols-5 gap-0">
-
-                    <img src={"images/cibc.png"} alt="cibc" class="object-cover z-[2] h-full rounded-md" />
-                    <img src={"images/city-mississauga.png"} alt="mississauga" class="object-contain z-[2] h-full rounded-md" />
-                    <img src={"images/morneau.jpg"} alt="morneau" class="object-contain z-[2] h-full rounded-md" />
-                    <img src={"images/sun-life.jpg"} alt="sunlife" class="object-cover z-[2] h-full rounded-md" />
-                    <img src={"images/manulife.png"} alt="manulife" class="object-cover z-[2] h-full rounded-md" />
-
-                </div>
-
-            </div>
-
-            -->
-
-
-            <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
+        <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
                     
-                    <div class="flex gap-6 sm:gap-8">
-                        <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"> 01 </p>
+                <div class="flex gap-6 sm:gap-8">
+                    <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"> 01 </p>
 
-                        <div class="flex flex-col gap-6 sm:gap-8">
+                    <div class="flex flex-col gap-6 sm:gap-8">
 
-                            <h3 class="text-2xl sm:text-3xl md:text-5xl"> a self taught developer </h3>
+                        <h3 class="text-2xl sm:text-3xl md:text-5xl"> a self taught developer </h3>
 
-                            <p class="sm:text-lg md:text-xl">I taught myself to code using free online
-                            resources and absolutely fell in love with the creativity and
-                            problem solving that is involved in developing and engineering
-                            innovative new online experiences. Starting of with JavaScript,
-                            HTML & CSS and evolving my knowledge base to include JavaScript
-                            frameworks, backend programming, design, cloud services and much much more.
-                            </p>
+                        <p class="sm:text-lg md:text-xl">I taught myself to code using free online
+                        resources and absolutely fell in love with the creativity and
+                        problem solving that is involved in developing and engineering
+                        innovative new online experiences. Starting of with JavaScript,
+                        HTML & CSS and evolving my knowledge base to include JavaScript
+                        frameworks, backend programming, design, cloud services and much much more.
+                        </p>
 
-                        </div>
-                   </div>
-            </div>
-
-
-
-           
+                    </div>
+                </div>
+        </div>
 
 
             <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
@@ -308,12 +283,12 @@
             </h6>
 
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                My <span class="poppins text-cyan-400">Skills</span>
+                My <span class="poppins text-cyan-400">skills.</span>
             </h3>
 
         </div>
 
-    <div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+    <div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-4 sm:px-0">
         {#each techs as { id, src, title, style }}
             <div key={id} class={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg mx-auto justify-center ${style} flex flex-col items-center`}>
                 <img src={src} alt="images" class="w-1/2 mb-2" />
@@ -330,33 +305,31 @@
 
 
     <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
-          
+
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Curious to see my work?
             </h6>
 
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Here's some of my finest <span class="poppins text-cyan-400">projects</span>
+                Have a look at my <span class="poppins text-cyan-400">portfolio.</span>
             </h3>
 
-     </div>
+        </div>
 
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 flex justify-center flex-col gap-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 flex justify-center flex-col gap-10 ">
 
             <div class="shadow-md shadow-cyan-500 p-6 flex-1 rounded-xl text-center hover:scale-105 duration-500 backdrop-blur-sm">
-            
-                <div class="flex flex-col gap-10 justify-around grid-cols-1 lg:grid-cols-2">
-                
+
+                <div class="flex flex-col gap-10 justify-around">
+
                     <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90 ">
                         <h3 class="text-xl sm:text-xl md:text-2xl"> Multi-Threaded Limit OrderBook & Trading Engine </h3>
                         <p>A fast, and efficient trade matching engine built in C++ utilizing Chrono, BOOST, and STL libraries.</p>
                         <div class="flex justify-center gap-4 grid grid-cols-2">
 
-                 
-
                         <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
-                          
+
                           <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
                           <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                           <h4 class="relative z-9">GitHub</h4>
@@ -368,29 +341,27 @@
                           <h4 class="relative z-9 align-middle">Demo Video</h4>
                         </button>
 
-                   
 
                     </div>
 
                 </div>
-            
+
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 flex justify-center flex-col gap-10">
+
 
             <div class="shadow-md shadow-cyan-500 p-6 flex-1 rounded-xl text-center hover:scale-105 duration-500 backdrop-blur-sm">
-            
-                <div class="flex flex-col gap-10 justify-around grid-cols-1 lg:grid-cols-2">
-                
-                    <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90 ">
-                        <h3 class="text-xl sm:text-xl md:text-2xl"> Multi-Threaded Limit OrderBook & Trading Engine </h3>
-                        <p>A fast, and efficient trade matching engine built in C++ utilizing Chrono, BOOST, and STL libraries.</p>
-                        <div class="flex justify-center gap-4 grid grid-cols-2">
 
-                 
+                <div class="flex flex-col gap-10 justify-around">
+
+                    <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90">
+                    <h3 class="text-xl sm:text-xl md:text-2xl"> PacMan with User Generated Maps </h3>
+                    <p>PacMan game with map editor functionality that allows users to modify and create their own custom maps.</p>
+
+                    <div class="flex justify-center gap-4 grid grid-cols-2">
 
                         <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
-                          
+
                           <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
                           <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                           <h4 class="relative z-9">GitHub</h4>
@@ -402,41 +373,17 @@
                           <h4 class="relative z-9 align-middle">Demo Video</h4>
                         </button>
 
-                   
-
                     </div>
 
                 </div>
-            
+
             </div>
-           
 
         </div>
 
 
 </section>
 
-
-<div class="relative overflow-hidden">
-  <div class="absolute inset-0 flex items-center justify-center hover-trigger">
-    <button class="play-button">
-      <!-- You can replace this with your play icon or any content -->
-      Play
-    </button>
-  </div>
-  <iframe
-    class="w-full h-full object-cover"
-    src="https://www.youtube.com/embed/your-video-id"
-    frameborder="0"
-    allowfullscreen
-  ></iframe>
-
-  <style>
-    .hover-trigger:hover + .play-button {
-      opacity: 0; /* Hide play button when not hovered */
-    }
-  </style>
-</div>
 
 
 

@@ -1,40 +1,71 @@
 <script>
+    export let y;
 
-	export let y;
-
-	export let tabs = [
-        { name: "Projects", link: "#projects" },
+    export let tabs = [
+        { name: "Home ", link: "#home" },
+        { name: "About me", link: "#about" },
         { name: "Skills", link: "#skills" },
-        { name: "About me", link: "#skills" },
-
-
+        {name: 'Portfolio', link: '#portfolio'},
+        {name: 'Contact', link: '#contact'},
     ];
+
+
 
 </script>
 
-<header
-    class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
-        (y > 0
-            ? " py-4 bg-slate-950 border-violet-950"
-            : " py-6 bg-transparent border-transparent")}
->
-    <h1 class="text-4xl">
-        <b class="font-bold poppins">Hamza</b> <span class="">Rashid</span>
-    </h1>
-	<div class=" text-1.5xl sm:flex items-center gap-4 hidden ">
-		{#each tabs as tab, index}
-			<a href={tab.link}
-                class="duration-200 hover:text-cyan-400 ">
-				<p class="text-xl">{tab.name}</p>
-			</a>
-		{/each}
+<header class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
+        (y > 0 ? " py-4 bg-slate-950 border-cyan-800" : " py-6 bg-transparent border-transparent")}>
 
-        <button class="shadow-md shadow-cyan-500 hover:text-cyan-400 bg-black relative overflow-hidden px-5 py-2 group rounded-full text-1.5xl sm:flex items-center gap-4 hidden">
-            <div
-                class="absolute top-0 right-full w-full h-fullopacity-20 group-hover:translate-x-full z-0 duration-200"
-            />
-            <h4 class="relative z-9 text-1.5xl">Get in touch</h4>
-        </button>
+  
+            <div class="flex justify-between items-center h-16 w-full">
 
-	</div>
+                    <!-- Logo -->
+                    <h1 class="text-4xl font-medium">
+                        <b class="font-bold poppins">Hamza</b> <span class="">Rashid</span>
+                    </h1>
+
+                    <!-- Navlink -->
+                    <div class="hidden sm:block ml-auto">
+                        <div class="sm:flex justify-items:end justify-between gap-4 mt-left">
+                            {#each tabs as tab, index}
+                                <a
+                                    href={tab.link}
+                                    class="duration-200 hover:text-cyan-400 text-xl"
+                                    target={index === 2 ? "_blank" : ""}
+                                >
+                                    <p>{tab.name}</p>
+                                </a>
+                            {/each}
+                        </div>
+                    </div>
+
+             </div>
+
+           
+
+            <!-- Mobile Menu Buttons -->
+            <div class="sm:hidden flex items-center">
+                <button id="mobile-menu-btn" onclick="mobile-menu" type="button" class="text-white hover:text-light-gray focus:outline-none focus:text-light-gray" aria-label="Toggle menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            
+
+            <div id="mobile-menu" class="hidden sm:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    {#each tabs as tab, index}
+                        <a
+                            href={tab.link}
+                            class="duration-200 hover:text-cyan-400 text-xl"
+                            target={index === 2 ? "_blank" : ""}
+                        >
+                            <p>{tab.name}</p>
+                        </a>
+                    {/each}
+                </div>
+            </div>
+
+
 </header>
