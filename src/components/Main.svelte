@@ -63,7 +63,7 @@
             id: 3,
             src : "images/technologies/sql.png",
             title: 'SQL',
-            style: 'shadow-yellow-500',
+            style: 'shadow-gray-500',
         },
 
         {
@@ -88,17 +88,74 @@
         },
 
         {
+        
             id: 7,
-            src : "images/technologies/svelte.png",
-            title: 'Svelte',
-            style: 'shadow-red-500',
-        }
-    ];
+            src: "images/technologies/github.png",
+            title: 'GitHub',
+            style: 'shadow-gray-500',
 
- 
+        
+        },
+
+        {
+        
+            id: 8,
+            src: "images/technologies/svelte.png",
+            title: 'SvelteKit',
+            style: 'shadow-red-500',
+
+        
+        },
+
+        {
+        
+            id: 10,
+            src: "images/technologies/node.png",
+            title: 'Node.js',
+            style: 'shadow-green-500',
+
+        
+        },
+
+
+        {
+        
+            id: 9,
+            src: "images/technologies/express.png",
+            title: 'Express.js',
+            style: 'shadow-gray-500',
+
+        
+        },
+
+
+        {
+        
+            id: 9,
+            src: "images/technologies/mongo.png",
+            title: 'MongoDB',
+            style: 'shadow-green-500',
+
+        
+        },
+
+        {
+        
+            id: 9,
+            src: "images/technologies/js.png",
+            title: 'JavaScript',
+            style: 'shadow-yellow-500 w-105',
+
+        
+        },
+
+        
+    ];
 
 
 </script>
+
+
 
 <main class="flex flex-col flex-1 p-4">
     <section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
@@ -109,36 +166,40 @@
                 <br />Aspiring
                 <span class="poppins text-cyan-400">Software Developer</span>
             </h2>
-            <p class="text-center text-base sm:text-lg md:text-xl">
-                My <span class="text-cyan-400">favorite tech</span> includes JavaScript
-                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
-                or Firebase/Firestore!
+
+            <p class="text-center font-semibold text-4xl sm:text-xl md:text-4xl overflow-hidden">
+                My <span class="text-cyan-400">favorite tech</span> includes
+                <span id="typed-output" class="text-cyan-400"></span>
             </p>
 
-            <div class="flex justify-center gap-4 grid grid-cols-2">
+            <div class=" justify-center gap-4 grid grid-cols-1 lg:grid-cols-2 ">
 
-                <button class="bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950">
+                <button class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                          
+                    <i class="fa-solid fa-file cursor-pointer text-3xl"></i>
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                    <h4 class="relative z-9">Download CV</h4>
+                    <h4 class="relative z-9">Download Resume</h4>
                 </button>
 
-                <button class="bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950">
+                <button class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                    <i class="fa-solid fa-address-book cursor-pointer text-3xl mt-[-0.25rem]"></i>
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                     <h4 class="relative z-9">Contact Info</h4>
                 </button>
 
-                <img
-                    src={"images/icons/linkedin.png"}
-                    alt="My LinkedIn profile"
-                    class="cursor-pointer h-8  hover:opacity-75 w-10 h-10 ml-auto transition duration-200"
-                    onclick="location.href='https://linkedin.com/'"
-                />
-              <img
-                src={"images/icons/github.png"}
-                alt="My Github profile"
-                class="cursor-pointer h-8  hover:opacity-75 w-10 h-10 transition duration-200"
-                onclick="location.href='https://github.com/'"
-              />
+                <button class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                          
+                    <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
+                    <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                    <h4 class="relative z-9">GitHub</h4>
+                </button>
+
+                <button class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                    <i class="fa-brands fa-linkedin cursor-pointer text-3xl mt-[-0.25rem]"></i>
+                    <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                    <h4 class="relative z-9">LinkedIn</h4>
+                </button>
+
 
             </div>
 
@@ -155,7 +216,7 @@
    </section>
 
 
-   <section id="about" class="py-2 pt-10 lg:pt-16 lg:py-2 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+   <section id="about" class="py-2 pt-10 lg:pt-16 lg:py-2 flex flex-col gap-16 sm:gap-20 md:gap-24 relative ">
         
         <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
             <h6 class="text-large sm:text-xl md:text-2xl">
@@ -252,7 +313,7 @@
 
         </div>
 
-    <div class="w-full grid grid-cols-3 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+    <div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
         {#each techs as { id, src, title, style }}
             <div key={id} class={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg mx-auto justify-center ${style} flex flex-col items-center`}>
                 <img src={src} alt="images" class="w-1/2 mb-2" />
@@ -278,20 +339,22 @@
                 Here's some of my finest <span class="poppins text-cyan-400">projects</span>
             </h3>
 
-        </div>
+     </div>
 
 
-        <div class="grid grid-cols-2 flex justify-center flex-col gap-10 ">
+        <div class="grid grid-cols-1 sm:grid-cols-2 flex justify-center flex-col gap-10">
 
-            <div class="p-6 flex-1 rounded-xl border border-solid border-gray-300 bg-black text-center hover:scale-105 duration-500">
+            <div class="shadow-md shadow-cyan-500 p-6 flex-1 rounded-xl text-center hover:scale-105 duration-500 backdrop-blur-sm">
             
-                <div class="flex flex-col gap-10 justify-around">
+                <div class="flex flex-col gap-10 justify-around grid-cols-1 lg:grid-cols-2">
                 
                     <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90 ">
                         <h3 class="text-xl sm:text-xl md:text-2xl"> Multi-Threaded Limit OrderBook & Trading Engine </h3>
                         <p>A fast, and efficient trade matching engine built in C++ utilizing Chrono, BOOST, and STL libraries.</p>
                         <div class="flex justify-center gap-4 grid grid-cols-2">
 
+                 
+
                         <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
                           
                           <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
@@ -305,23 +368,26 @@
                           <h4 class="relative z-9 align-middle">Demo Video</h4>
                         </button>
 
+                   
+
                     </div>
 
                 </div>
             
             </div>
 
-            
+            <div class="grid grid-cols-1 sm:grid-cols-2 flex justify-center flex-col gap-10">
 
-            <div class="p-6 flex-1 rounded-xl border border-solid border-gray-300 bg-black text-center hover:scale-105 duration-500">
+            <div class="shadow-md shadow-cyan-500 p-6 flex-1 rounded-xl text-center hover:scale-105 duration-500 backdrop-blur-sm">
             
-                <div class="flex flex-col gap-10 justify-around">
+                <div class="flex flex-col gap-10 justify-around grid-cols-1 lg:grid-cols-2">
                 
-                    <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90">
-                    <h3 class="text-xl sm:text-xl md:text-2xl"> PacMan with User Generated Maps </h3>
-                    <p>PacMan game with map editor functionality that allows users to modify and create their own custom maps.</p>
+                    <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90 ">
+                        <h3 class="text-xl sm:text-xl md:text-2xl"> Multi-Threaded Limit OrderBook & Trading Engine </h3>
+                        <p>A fast, and efficient trade matching engine built in C++ utilizing Chrono, BOOST, and STL libraries.</p>
+                        <div class="flex justify-center gap-4 grid grid-cols-2">
 
-                    <div class="flex justify-center gap-4 grid grid-cols-2">
+                 
 
                         <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
                           
@@ -336,16 +402,41 @@
                           <h4 class="relative z-9 align-middle">Demo Video</h4>
                         </button>
 
+                   
+
                     </div>
 
                 </div>
             
             </div>
+           
 
         </div>
 
 
 </section>
+
+
+<div class="relative overflow-hidden">
+  <div class="absolute inset-0 flex items-center justify-center hover-trigger">
+    <button class="play-button">
+      <!-- You can replace this with your play icon or any content -->
+      Play
+    </button>
+  </div>
+  <iframe
+    class="w-full h-full object-cover"
+    src="https://www.youtube.com/embed/your-video-id"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
+
+  <style>
+    .hover-trigger:hover + .play-button {
+      opacity: 0; /* Hide play button when not hovered */
+    }
+  </style>
+</div>
 
 
 
