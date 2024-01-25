@@ -2,9 +2,9 @@
     export let y;
 
     export let tabs = [
-        { name: "Home ", link: "#home" },
-        { name: "About me", link: "#about" },
-        { name: "Skills", link: "#skills" },
+        {name: "Home ", link: "#home"},
+        {name: "About Me", link: "#about"},
+        {name: "Skills", link: "#skill"},
         {name: 'Portfolio', link: '#portfolio'},
         {name: 'Contact', link: '#contact'},
     ];
@@ -26,7 +26,7 @@
 
                     <!-- Navlink -->
                     <div class="hidden sm:block ml-auto">
-                        <div class="sm:flex justify-items:end justify-between gap-4 mt-left">
+                        <div class="sm:flex justify-items:end justify-between gap-6 mt-left">
                             {#each tabs as tab, index}
                                 <a
                                     href={tab.link}
