@@ -31,7 +31,7 @@
                                 <a
                                     href={tab.link}
                                     class="duration-200 hover:text-cyan-400 text-xl"
-                                    target={index === 2 ? "_blank" : ""}
+                                    target={""}
                                 >
                                     <p>{tab.name}</p>
                                 </a>

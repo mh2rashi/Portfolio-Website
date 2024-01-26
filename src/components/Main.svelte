@@ -40,7 +40,7 @@
             id: 3,
             src : "images/technologies/sql.png",
             title: 'SQL',
-            style: 'shadow-gray-500',
+            style: 'shadow-cyan-500',
         },
 
         {
@@ -60,7 +60,7 @@
         {
             id: 6,
             src : "images/technologies/react.png",
-            title: 'React',
+            title: 'React.js',
             style: 'shadow-cyan-500',
         },
 
@@ -77,9 +77,9 @@
         {
         
             id: 8,
-            src: "images/technologies/svelte.png",
-            title: 'SvelteKit',
-            style: 'shadow-red-500',
+            src: "images/technologies/redux.png",
+            title: 'Redux',
+            style: 'shadow-purple-500',
 
         
         },
@@ -109,7 +109,7 @@
         {
         
             id: 11,
-            src: "images/technologies/mongo.png",
+            src: "images/technologies/mongodb.png",
             title: 'MongoDB',
             style: 'shadow-green-500',
 
@@ -119,9 +119,37 @@
         {
         
             id: 12,
-            src: "images/technologies/js.png",
+            src: "images/technologies/javascript.png",
             title: 'JavaScript',
             style: 'shadow-yellow-500 w-105',
+        },
+        {
+        
+        id: 13,
+        src: "images/technologies/aws.png",
+        title: 'Amazon Web Services',
+        style: 'shadow-yellow-500 w-105',
+        },
+        {
+        
+        id: 14,
+        src: "images/technologies/tailwind.png",
+        title: 'Tailwind CSS',
+        style: 'shadow-cyan-500 w-105',
+        },
+        {
+        
+        id: 15,
+        src: "images/technologies/typescript.png",
+        title: 'TypeScript',
+        style: 'shadow-blue-500 w-105',
+        },
+        {
+        
+        id: 16,
+        src: "images/technologies/nextjs.png",
+        title: 'Next.js',
+        style: 'shadow-gray-500 w-105',
         },
 
         
@@ -203,46 +231,77 @@
             </h3>
         </div>
 
-
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
-                    
+                
                 <div class="flex gap-6 sm:gap-8">
                     <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"> 01 </p>
 
                     <div class="flex flex-col gap-6 sm:gap-8">
 
-                        <h3 class="text-2xl sm:text-3xl md:text-5xl"> a self taught developer </h3>
+                        <h3 class="text-2xl sm:text-3xl md:text-5xl"> Education and Early Career </h3>
 
-                        <p class="sm:text-lg md:text-xl">I taught myself to code using free online
-                        resources and absolutely fell in love with the creativity and
-                        problem solving that is involved in developing and engineering
-                        innovative new online experiences. Starting of with JavaScript,
-                        HTML & CSS and evolving my knowledge base to include JavaScript
-                        frameworks, backend programming, design, cloud services and much much more.
+                        <p class="sm:text-lg md:text-xl">
+                            I graduated from the
+                            <a class="text-cyan-400" href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">
+                                University of Waterloo
+                            </a>,
+                            where I pursued an Honors Statistics program. My academic journey at Waterloo was
+                            complemented by engaging co-op experiences, predominantly within the insurance industry,
+                            focusing on various actuarial roles. This period allowed me to apply statistical concepts
+                            in real-world scenarios, honing my analytical skills and industry knowledge.
                         </p>
+                        
 
                     </div>
                 </div>
         </div>
 
+        <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
+                    
+            <div class="flex gap-6 sm:gap-8">
+                <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"> 02 </p>
+
+                <div class="flex flex-col gap-6 sm:gap-8">
+
+                    <h3 class="text-2xl sm:text-3xl md:text-5xl"> Professional Experience</h3>
+
+                    <p class="sm:text-lg md:text-xl">
+                        Upon completing my degree, I transitioned into a full-time role as a Data Analyst at
+                        <a class="text-cyan-400" href="https://www.munichre.com/ca-life/en/company.html" target="_blank" rel="noopener noreferrer">
+                            Munich Reinsurance Canada
+                        </a>. Here, I delved into coding, primarily focusing on building automated workflows (ETL)
+                        using SQL for processing insurance data. This experience ignited my interest in programming
+                        and served as my initial exposure to the realm of Software Engineering.
+                    </p>
+                    
+
+                </div>
+            </div>
+        </div>
 
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
-                
-                <div class="flex gap-6 sm:gap-8">
-                    <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"> 02 </p>
+                    
+            <div class="flex gap-6 sm:gap-8">
+                <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"> 03 </p>
 
-                    <div class="flex flex-col gap-6 sm:gap-8">
+                <div class="flex flex-col gap-6 sm:gap-8">
 
-                        <h3 class="text-2xl sm:text-3xl md:text-5xl"> a product design & UX finatic </h3>
+                    <h3 class="text-2xl sm:text-3xl md:text-5xl"> Transition to Software Engineering</h3>
 
-                        <p class="sm:text-lg md:text-xl">Carefully crafting and designing amazing
-                        user experiences allows me to express and experiment with
-                        every morsel of creativity I have. I love the challenge of learning
-                        new design concepts and enabling users with amazing online experiences.
-                        </p>
+                    <p class="sm:text-lg md:text-xl">Post-March 2023, I left Munich for personal
+                    reasons and redirected my career toward Software Engineering. Driven by self-motivation,
+                    I embraced online learning, deepening my appreciation for creative problem-solving
+                    in software development.
+                    </p>
 
-                    </div>
+                    <p class="sm:text-lg md:text-xl">I delved into languages such as Python and C++,
+                    expanding my expertise to encompass full-stack development. My knowledge now spans 
+                    JavaScript, HTML & CSS, various frameworks, backend programming, design principles,
+                    cloud services, and much more.
+                    </p>
+
                 </div>
+            </div>
         </div>
    
     </section>
@@ -267,7 +326,7 @@
             {#each techs as { id, src, title, style }}
                 <div key={id} class={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg mx-auto justify-center ${style} flex flex-col items-center`}>
                     <img src={src} alt="images" class="w-1/2 mb-2" />
-                    <p class="mt-2">{title}</p>
+                    <p class="mt-3">{title}</p>
                 </div>
             {/each}
         </div>
@@ -352,6 +411,45 @@
 
                     </div>
 
+                </div>
+
+            </div>
+
+
+    </section>
+
+    <section id="contact" class="flex flex-col gap-4 sm:gap-4 md:gap-4 relative">
+
+
+        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
+
+                <h6 class="text-large sm:text-xl md:text-2xl">
+                    Submit the form below  get in touch.
+                </h6>
+
+                <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                    Contact <span class="poppins text-cyan-400">me.</span>
+                </h3>
+
+            </div>
+
+
+            <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
+
+                <div class="justify-center max-w-screen-lg flex flex-col items-center w-full px-2">
+    
+                    <form action="https://getform.io/f/270fa34c-48dd-42cd-bead-72f6135280e8" method="POST" class="flex flex-col w-full wvh">
+                    
+                        <input type="text" name="name" placeholder="Enter your email..." class="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none my-2 backdrop-blur-sm"/>
+                    
+                        <input type="text" name="email" placeholder="Enter your name..." class="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none my-2 backdrop-blur-sm"/>
+            
+                        <textarea name="message" rows="10" placeholder="Enter your message..." class="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none my-2 backdrop-blur-sm"></textarea>
+            
+                        <button class="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-6 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Submit</button>
+            
+                    </form>
+            
                 </div>
 
             </div>
