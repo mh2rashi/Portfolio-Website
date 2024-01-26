@@ -357,25 +357,25 @@
 
                     <div class="flex flex-col gap-10 justify-around">
 
-                        <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90 ">
+                        <img src={"videos/trading-engine.gif"} alt="project 1" class="rounded-xl w-90 h-90 ">
+
                             <h3 class="text-xl sm:text-xl md:text-2xl"> Multi-Threaded Limit OrderBook & Trading Engine </h3>
-                            <p>A fast, and efficient trade matching engine built in C++ utilizing Chrono, BOOST, and STL libraries.</p>
+                            <p>A fast, and efficient limit orderbook & trade matching engine built in C++ utilizing Chrono, BOOST, and STL libraries.</p>
                             <div class="flex justify-center gap-4 grid grid-cols-2">
-
-                            <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
-
-                            <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
-                            <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                            <h4 class="relative z-9">GitHub</h4>
+                        
+                            <button onclick="window.open('https://github.com/mh2rashi/Trading-Engine', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                                <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
+                                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                                <h4 class="relative z-9">GitHub</h4>
                             </button>
-
-                            <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
-                            <i class="fa-solid fa-play cursor-pointer h-8 w-8 mt-2.5"></i>
-                            <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                            <h4 class="relative z-9 align-middle">Demo Video</h4>
+                                
+                            
+                            <button onclick="window.open('https://www.youtube.com/watch?v=-k_1Zz8bcX8&ab_channel=HamzaRashid', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                                <i class="fa-solid fa-play cursor-pointer h-8 w-8 mt-2.5"></i>
+                                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                                <h4 class="relative z-9 align-middle">Demo Video</h4>
                             </button>
-
-
+                            
                         </div>
 
                     </div>
@@ -388,23 +388,23 @@
 
                     <div class="flex flex-col gap-10 justify-around">
 
-                        <img src={"images/cibc.png"} alt="project 1" class="rounded-xl w-90 h-90">
+                        <img src={"videos/pacman.gif"} alt="project 1" class="rounded-xl w-90 h-90">
                         <h3 class="text-xl sm:text-xl md:text-2xl"> PacMan with User Generated Maps </h3>
                         <p>PacMan game with map editor functionality that allows users to modify and create their own custom maps.</p>
 
                         <div class="flex justify-center gap-4 grid grid-cols-2">
 
-                            <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
-
-                            <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
-                            <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                            <h4 class="relative z-9">GitHub</h4>
+                            <button onclick="window.open('https://github.com/mh2rashi/PacMan', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                                <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
+                                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                                <h4 class="relative z-9">GitHub</h4>
                             </button>
-
-                            <button class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
-                            <i class="fa-solid fa-play cursor-pointer h-8 w-8 mt-2.5"></i>
-                            <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                            <h4 class="relative z-9 align-middle">Demo Video</h4>
+                                
+                            
+                            <button onclick="window.open('https://www.youtube.com/watch?v=mAXyYmvM1EI&ab_channel=HamzaRashid', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                                <i class="fa-solid fa-play cursor-pointer h-8 w-8 mt-2.5"></i>
+                                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                                <h4 class="relative z-9 align-middle">Demo Video</h4>
                             </button>
 
                         </div>
