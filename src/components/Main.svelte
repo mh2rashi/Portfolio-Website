@@ -1,25 +1,5 @@
 <script>
 
-    let benefits = [
-        {
-            metric: "10x",
-            name: "a self taught developer",
-            description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
-        },
-        {
-            name: "a product design & UX finatic",
-            description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
-        },
-        {
-            name: "an excellent communicator",
-            description:
-                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
-        },
-    ];
-
-
     let techs = [
     
         {
@@ -129,6 +109,7 @@
         src: "images/technologies/aws.png",
         title: 'Amazon Web Services',
         style: 'shadow-yellow-500 w-105',
+
         },
         {
         
@@ -136,6 +117,7 @@
         src: "images/technologies/tailwind.png",
         title: 'Tailwind CSS',
         style: 'shadow-cyan-500 w-105',
+
         },
         {
         
@@ -143,6 +125,7 @@
         src: "images/technologies/typescript.png",
         title: 'TypeScript',
         style: 'shadow-blue-500 w-105',
+
         },
         {
         
@@ -150,6 +133,7 @@
         src: "images/technologies/nextjs.png",
         title: 'Next.js',
         style: 'shadow-gray-500 w-105',
+
         },
 
         
@@ -240,7 +224,7 @@
 
                         <h3 class="text-2xl sm:text-3xl md:text-5xl"> Education and Early Career </h3>
 
-                        <p class="sm:text-lg md:text-xl">
+                        <p class="sm:text-lg md:text-xl backdrop-blur-sm">
                             I graduated from the
                             <a class="text-cyan-400" href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">
                                 University of Waterloo
@@ -265,7 +249,7 @@
 
                     <h3 class="text-2xl sm:text-3xl md:text-5xl"> Professional Experience</h3>
 
-                    <p class="sm:text-lg md:text-xl">
+                    <p class="sm:text-lg md:text-xl backdrop-blur-sm">
                         Upon completing my degree, I transitioned into a full-time role as a Data Analyst at
                         <a class="text-cyan-400" href="https://www.munichre.com/ca-life/en/company.html" target="_blank" rel="noopener noreferrer">
                             Munich Reinsurance Canada
@@ -288,13 +272,13 @@
 
                     <h3 class="text-2xl sm:text-3xl md:text-5xl"> Transition to Software Engineering</h3>
 
-                    <p class="sm:text-lg md:text-xl">Post-March 2023, I left Munich for personal
+                    <p class="sm:text-lg md:text-xl backdrop-blur-sm">Post-March 2023, I left Munich for personal
                     reasons and redirected my career toward Software Engineering. Driven by self-motivation,
                     I embraced online learning, deepening my appreciation for creative problem-solving
                     in software development.
                     </p>
 
-                    <p class="sm:text-lg md:text-xl">I delved into languages such as Python and C++,
+                    <p class="sm:text-lg md:text-xl backdrop-blur-sm">I started by delving into languages such as Python and C++, and later
                     expanding my expertise to encompass full-stack development. My knowledge now spans 
                     JavaScript, HTML & CSS, various frameworks, backend programming, design principles,
                     cloud services, and much more.
@@ -307,7 +291,7 @@
     </section>
 
 
-    <section id="skill" class="flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+    <section id="skills" class="flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
 
 
         <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
@@ -357,6 +341,64 @@
 
                     <div class="flex flex-col gap-10 justify-around">
 
+                        <img src={"videos/stockpeer.gif"} alt="project 1" class="rounded-xl w-90 h-90">
+                        <h3 class="text-xl sm:text-xl md:text-2xl"> StockPeer: Crafting Alpha through Data and Strategies </h3>
+                        <p>A stock web application with display metrics, machine-learning based predictions and options strategy visualizer.</p>
+
+                        <div class="flex justify-center gap-4 grid grid-cols-2">
+
+                            <button onclick="window.open('https://github.com/mh2rashi/StockPeer', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                                <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
+                                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                                <h4 class="relative z-9">GitHub</h4>
+                            </button>
+                                
+                            
+                            <button onclick="window.open('https://stockpeer-3495602137c6.herokuapp.com/', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                                <i class="fa-solid fa-arrow-pointer h-8 w-8 mt-2.5"></i>
+                                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                                <h4 class="relative z-9 align-middle">Live Demo</h4>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="shadow-md shadow-cyan-500 p-6 flex-1 rounded-xl text-center hover:scale-105 duration-500 backdrop-blur-sm">
+
+                    <div class="flex flex-col gap-10 justify-around">
+
+                        <img src={"videos/.gif"} alt="project 1" class="rounded-xl w-90 h-90">
+                        <h3 class="text-xl sm:text-xl md:text-2xl"> LinguaTune: Harmonizing Speech Barriers </h3>
+                        <p>An AI web application designed to transcribe videos with near-human accuracy, offering the option to add captions or voice-overs in numerous languages.</p>
+
+                        <div class="flex justify-center gap-4 grid grid-cols-2">
+
+                            <button onclick="window.open('https://github.com/mh2rashi/LinguaTune', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                                <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
+                                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                                <h4 class="relative z-9">GitHub</h4>
+                            </button>
+                                
+                            
+                            <button onclick="window.open('', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                                <i class="fa-solid fa-arrow-pointer h-8 w-8 mt-2.5"></i>
+                                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                                <h4 class="relative z-9 align-middle">Live Demo</h4>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="shadow-md shadow-cyan-500 p-6 flex-1 rounded-xl text-center hover:scale-105 duration-500 backdrop-blur-sm">
+
+                    <div class="flex flex-col gap-10 justify-around">
+
                         <img src={"videos/trading-engine.gif"} alt="project 1" class="rounded-xl w-90 h-90 ">
 
                             <h3 class="text-xl sm:text-xl md:text-2xl"> Multi-Threaded Limit OrderBook & Trading Engine </h3>
@@ -382,15 +424,13 @@
 
                 </div>
 
-
-
                 <div class="shadow-md shadow-cyan-500 p-6 flex-1 rounded-xl text-center hover:scale-105 duration-500 backdrop-blur-sm">
 
                     <div class="flex flex-col gap-10 justify-around">
 
                         <img src={"videos/pacman.gif"} alt="project 1" class="rounded-xl w-90 h-90">
                         <h3 class="text-xl sm:text-xl md:text-2xl"> PacMan with User Generated Maps </h3>
-                        <p>PacMan game with map editor functionality that allows users to modify and create their own custom maps.</p>
+                        <p>A classic PacMan game with map editor functionality that allows users to modify and create their own custom maps.</p>
 
                         <div class="flex justify-center gap-4 grid grid-cols-2">
 
