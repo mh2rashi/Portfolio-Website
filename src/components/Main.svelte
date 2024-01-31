@@ -370,7 +370,7 @@
 
                     <div class="flex flex-col gap-10 justify-around">
 
-                        <img src={"videos/.gif"} alt="project 1" class="rounded-xl w-90 h-90">
+                        <img src={"videos/linguatune.gif"} alt="project 1" class="rounded-xl w-90 h-90">
                         <h3 class="text-xl sm:text-xl md:text-2xl"> LinguaTune: Harmonizing Speech Barriers </h3>
                         <p>An AI web application designed to transcribe videos with near-human accuracy, offering the option to add captions or voice-overs in numerous languages.</p>
 
@@ -383,7 +383,7 @@
                             </button>
                                 
                             
-                            <button onclick="window.open('', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                            <button onclick="window.open('https://lingua-tune.vercel.app/', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
                                 <i class="fa-solid fa-arrow-pointer h-8 w-8 mt-2.5"></i>
                                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                                 <h4 class="relative z-9 align-middle">Live Demo</h4>
