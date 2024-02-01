@@ -146,9 +146,9 @@
 
 <main class="flex flex-col flex-1 p-4 gap-24">
 
-    <section id="home" class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+    <section id="home" class="grid grid-cols-1 gap-10 items-center justify-center">
 
-        <div  class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
+        <div  class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
 
             <h2 class="text-center font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-cyan-400">Hamza Rashid</span> 
@@ -163,25 +163,25 @@
 
             <div class=" justify-center gap-4 grid grid-cols-1 lg:grid-cols-2 ">
 
-                <a href="https://example.com/path-to-your-resume.pdf" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
-                    <i class="fa-solid fa-file cursor-pointer text-3xl"></i>
+                <a href="https://example.com/path-to-your-resume.pdf" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
+                    <i class="fa-solid fa-file cursor-pointer text-3xl hover:text-cyan-400"></i>
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                    <h4 class="relative z-9">Resume</h4>
+                    <h4 class="relative z-9 hover:text-cyan-400">Resume</h4>
                   </a>
                   
-                <a href="mailto:hamza022697@gmail.com" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                <a href="mailto:hamza022697@gmail.com" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2 text-white">
                     <i class="fa-solid fa-envelope cursor-pointer text-3xl mt-[-0.25rem]"></i>
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                    <h4 class="relative z-9">Email</h4>
+                    <h4 class="relative z-9 hover:text-cyan-400">Email</h4>
                   </a>                  
 
-                <a href="https://github.com/mh2rashi" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                <a href="https://github.com/mh2rashi" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
                     <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                     <h4 class="relative z-9">GitHub</h4>
                   </a>                  
 
-                  <a href="https://www.linkedin.com/in/mhamza-rashid/" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                  <a href="https://www.linkedin.com/in/mhamza-rashid/" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2 text-white">
                     <i class="fa-brands fa-linkedin cursor-pointer text-3xl mt-[-0.25rem]"></i>
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                     <h4 class="relative z-9">LinkedIn</h4>
@@ -191,14 +191,6 @@
             </div>
 
         </div>
-
-        <div class="relative shadow-2xl grid place-items-center">
-            <img
-                src={"images/profile-pic.png"}
-                alt="Profile Picture"
-                class="object-cover z-[2] max-h-[70vh] rounded-lg"
-            />
-        </div>
         
 
     </section>
@@ -206,10 +198,7 @@
 
    <section id="about" class="flex flex-col gap-16 sm:gap-20 md:gap-24 relative ">
         
-        <div  class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
-            <h6 class="text-large sm:text-xl md:text-2xl">
-                Thanks for taking the time to get to know me.
-            </h6>
+        <div  class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-8">
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                 A bit <span class="poppins text-cyan-400">about me.</span>
             </h3>
@@ -227,12 +216,12 @@
                         <p class="sm:text-lg md:text-xl backdrop-blur-sm">
                             I graduated from the
                             <a class="text-cyan-400" href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">
-                                University of Waterloo
-                            </a>,
-                            where I pursued an Honors Statistics program. My academic journey at Waterloo was
-                            complemented by engaging co-op experiences, predominantly within the insurance industry,
-                            focusing on various actuarial roles. This period allowed me to apply statistical concepts
-                            in real-world scenarios, honing my analytical skills and industry knowledge.
+                                University of Waterloo,
+                            </a>
+                            where I pursued an Honors Statistics program. My academic journey at Waterloo was complemented
+                            by engaging co-op experiences, predominantly within the insurance industry, focusing on various
+                            actuarial roles. These experiences allowed me to apply statistical concepts in real-world scenarios,
+                            honing my analytical skills and industry knowledge.
                         </p>
                         
 
@@ -252,10 +241,10 @@
                     <p class="sm:text-lg md:text-xl backdrop-blur-sm">
                         Upon completing my degree, I transitioned into a full-time role as a Data Analyst at
                         <a class="text-cyan-400" href="https://www.munichre.com/ca-life/en/company.html" target="_blank" rel="noopener noreferrer">
-                            Munich Reinsurance Canada
-                        </a>. Here, I delved into coding, primarily focusing on building automated workflows (ETL)
+                            Munich Reinsurance Canada.
+                        </a> Here, I delved into coding, primarily focusing on building automated workflows (Extract, Transform, Load [ETL])
                         using SQL for processing insurance data. This experience ignited my interest in programming
-                        and served as my initial exposure to the realm of Software Engineering.
+                        and was my initial exposure to Software Engineering.
                     </p>
                     
 
@@ -273,15 +262,10 @@
                     <h3 class="text-2xl sm:text-3xl md:text-5xl"> Transition to Software Engineering</h3>
 
                     <p class="sm:text-lg md:text-xl backdrop-blur-sm">Post-March 2023, I left Munich for personal
-                    reasons and redirected my career toward Software Engineering. Driven by self-motivation,
-                    I embraced online learning, deepening my appreciation for creative problem-solving
-                    in software development.
-                    </p>
-
-                    <p class="sm:text-lg md:text-xl backdrop-blur-sm">I started by delving into languages such as Python and C++, and later
-                    expanding my expertise to encompass full-stack development. My knowledge now spans 
-                    JavaScript, HTML & CSS, various frameworks, backend programming, design principles,
-                    cloud services, and much more.
+                    reasons and redirected my career toward Software Engineering. Driven by self-motivation, I embraced
+                    online learning, deepening my appreciation for creative problem-solving in software development.
+                    I started by delving into languages such as Python and C++ and later expanded my expertise to encompass full-stack development.
+                    My knowledge now spans JavaScript, HTML & CSS, various frameworks, backend programming, design principles, cloud services, and much more.
                     </p>
 
                 </div>
@@ -294,12 +278,8 @@
     <section id="skills" class="flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
 
 
-        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
+        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-8">
             
-                <h6 class="text-large sm:text-xl md:text-2xl">
-                    Here's some of the technologies i've worked with.
-                </h6>
-
                 <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                     My <span class="poppins text-cyan-400">skills.</span>
                 </h3>
@@ -322,11 +302,7 @@
     <section id="portfolio" class="flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
 
 
-        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
-
-                <h6 class="text-large sm:text-xl md:text-2xl">
-                    Curious to see my work?
-                </h6>
+        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-8">
 
                 <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                     Have a look at my <span class="poppins text-cyan-400">portfolio.</span>
@@ -347,14 +323,14 @@
 
                         <div class="flex justify-center gap-4 grid grid-cols-2">
 
-                            <button onclick="window.open('https://github.com/mh2rashi/StockPeer', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                            <button onclick="window.open('https://github.com/mh2rashi/StockPeer', '_blank')" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
                                 <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
                                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                                 <h4 class="relative z-9">GitHub</h4>
                             </button>
                                 
                             
-                            <button onclick="window.open('https://stockpeer-3495602137c6.herokuapp.com/', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                            <button onclick="window.open('https://stockpeer-3495602137c6.herokuapp.com/', '_blank')" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2 text-white">
                                 <i class="fa-solid fa-arrow-pointer h-8 w-8 mt-2.5"></i>
                                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                                 <h4 class="relative z-9 align-middle">Live Demo</h4>
@@ -376,14 +352,14 @@
 
                         <div class="flex justify-center gap-4 grid grid-cols-2">
 
-                            <button onclick="window.open('https://github.com/mh2rashi/LinguaTune', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                            <button onclick="window.open('https://github.com/mh2rashi/LinguaTune', '_blank')" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
                                 <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
                                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                                 <h4 class="relative z-9">GitHub</h4>
                             </button>
                                 
                             
-                            <button onclick="window.open('https://lingua-tune.vercel.app/', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                            <button onclick="window.open('https://lingua-tune.vercel.app/', '_blank')" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2 text-white">
                                 <i class="fa-solid fa-arrow-pointer h-8 w-8 mt-2.5"></i>
                                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                                 <h4 class="relative z-9 align-middle">Live Demo</h4>
@@ -405,14 +381,14 @@
                             <p>A fast, and efficient limit orderbook & trade matching engine built in C++ utilizing Chrono, BOOST, and STL libraries.</p>
                             <div class="flex justify-center gap-4 grid grid-cols-2">
                         
-                            <button onclick="window.open('https://github.com/mh2rashi/Trading-Engine', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                            <button onclick="window.open('https://github.com/mh2rashi/Trading-Engine', '_blank')" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
                                 <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
                                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                                 <h4 class="relative z-9">GitHub</h4>
                             </button>
                                 
                             
-                            <button onclick="window.open('https://www.youtube.com/watch?v=-k_1Zz8bcX8&ab_channel=HamzaRashid', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                            <button onclick="window.open('https://www.youtube.com/watch?v=-k_1Zz8bcX8&ab_channel=HamzaRashid', '_blank')" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2 text-white">
                                 <i class="fa-solid fa-play cursor-pointer h-8 w-8 mt-2.5"></i>
                                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                                 <h4 class="relative z-9 align-middle">Demo Video</h4>
@@ -434,14 +410,14 @@
 
                         <div class="flex justify-center gap-4 grid grid-cols-2">
 
-                            <button onclick="window.open('https://github.com/mh2rashi/PacMan', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3">
+                            <button onclick="window.open('https://github.com/mh2rashi/PacMan', '_blank')" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
                                 <i class="fa-brands fa-github cursor-pointer text-3xl"></i>
                                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                                 <h4 class="relative z-9">GitHub</h4>
                             </button>
                                 
                             
-                            <button onclick="window.open('https://www.youtube.com/watch?v=mAXyYmvM1EI&ab_channel=HamzaRashid', '_blank')" class="flex items-center justify-center bg-white hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2">
+                            <button onclick="window.open('https://www.youtube.com/watch?v=mAXyYmvM1EI&ab_channel=HamzaRashid', '_blank')" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-2 text-white">
                                 <i class="fa-solid fa-play cursor-pointer h-8 w-8 mt-2.5"></i>
                                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                                 <h4 class="relative z-9 align-middle">Demo Video</h4>
@@ -461,11 +437,7 @@
     <section id="contact" class="flex flex-col gap-4 sm:gap-4 md:gap-4 relative">
 
 
-        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-4">
-
-                <h6 class="text-large sm:text-xl md:text-2xl">
-                    Submit the form below  get in touch.
-                </h6>
+        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-cyan-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-cyan-700 py-8">
 
                 <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                     Contact <span class="poppins text-cyan-400">me.</span>
