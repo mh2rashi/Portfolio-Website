@@ -56,16 +56,17 @@
     </div>
 
     <!-- Mobile Menu Buttons -->
+    {#if !isMenuOpen}
     <div class="sm:hidden flex items-center">
-        {#if !isMenuOpen}
+        
             <button id="mobile-menu-btn" on:click={handleMenuToggle} type="button" class="text-white duration-200 hover:text-cyan-400 focus:outline-none focus:text-light-gray" aria-label="Toggle menu">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
             </button>
-        {/if}
     </div>
 
+    {:else}
     <div id="mobile-menu" class="{isMenuOpen ? 'block' : 'hidden'} sm:hidden flex duration-500">
         <div class="pt-2 pb-3 space-y-1 h-full sm:w-1/2">
             <div class="flex justify-end">
@@ -78,7 +79,7 @@
             {#each tabs as tab, index}
                 <a
                     href={tab.link}
-                    class="duration-500 hover:text-cyan-400 text-xl w-full"
+                    class="duration-500 hover:text-cyan-400 text-xl w-full text-center"
                     target=""
                     on:click={handleMenuItemClick}
                 >
@@ -87,6 +88,8 @@
             {/each}
         </div>
     </div>
+
+    {/if}
 
 </header>
 

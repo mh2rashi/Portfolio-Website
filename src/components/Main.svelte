@@ -163,7 +163,7 @@
 
             <div class=" justify-center gap-4 grid grid-cols-1 lg:grid-cols-2 ">
 
-                <a href="https://example.com/path-to-your-resume.pdf" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
+                <a href="https://hamza-rashid-resume.tiiny.site/" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
                     <i class="fa-solid fa-file cursor-pointer text-3xl hover:text-cyan-400"></i>
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                     <h4 class="relative z-9 hover:text-cyan-400">Resume</h4>
