@@ -146,7 +146,7 @@
 
 <main class="flex flex-col flex-1 p-4 gap-24">
 
-    <section id="home" class="grid grid-cols-1 gap-10 items-center justify-center">
+    <section id="home" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
 
         <div  class="flex flex-col gap-20 w-full mx-auto max-w-[800px] justify-center">
 
@@ -163,7 +163,7 @@
 
             <div class=" justify-center gap-4 grid grid-cols-1 lg:grid-cols-2 ">
 
-                <a href="https://hamza-rashid-resume.tiiny.site/" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
+                <a href="https://crimson-willabella-56.tiiny.site" target="_blank" rel="noopener noreferrer" class="shadow-md shadow-cyan-500 flex items-center justify-center bg-black hover:text-cyan-400 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full text-slate-950 space-x-3 text-white">
                     <i class="fa-solid fa-file cursor-pointer text-3xl hover:text-cyan-400"></i>
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                     <h4 class="relative z-9 hover:text-cyan-400">Resume</h4>
@@ -190,6 +190,14 @@
 
             </div>
 
+        </div>
+
+        <div class="relative shadow-2xl grid place-items-center">
+            <img
+                src={"images/profile-pic.png"}
+                alt="Profile Picture"
+                class="object-cover z-[2] max-h-[70vh]"
+            />
         </div>
         
 
